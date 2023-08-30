@@ -1,0 +1,41 @@
+// Colors
+$material-light: (
+  "background": #eeeeee,
+  "text": (
+    "primary": #333333,
+    "secondary": #999999,
+  ),
+);
+
+$primary-color: #6200ee !default;
+$accent-color: #ee7200 !default;
+$dark-primary-color: #5200c7;
+$dark-primary-color-2: #4a01b2;
+$disabled-color: #d8d8d8;
+
+$white: #fff;
+$grayish-white: #fafafa;
+$light-gray: #dfe0eb;
+$medium-gray: #ededed;
+$light-blue: #f7f9fd;
+$gray: #d8d8d8;
+$black: #000;
+$dark-gray: #6c757d;
+$red: #9f1010;
+
+$theme-colors: (
+  "primary": $primary-color,
+  "primary-dark": $dark-primary-color,
+  "primary-dark-2": $dark-primary-color-2,
+  "accent": $accent-color,
+  "error": $red,
+);
+
+$primary-text-color: #000;
+$secondary-text-color: transparentize($primary-text-color, 0.4);
+
+$overlays: (
+  "primary": #bb86fc1f,
+  "success": #e1fcef,
+  "info": #f0f1fa,
+);

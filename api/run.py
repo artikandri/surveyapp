@@ -1,13 +1,9 @@
-from flask import Flask
-from flask_cors import CORS
-from flask_restful import Api
-from view import Home
+from app import app, api
+from resources.routes import initialize_routes
+from models.admin import Admin
 
-app = Flask(__name__)
-CORS(app)
-api = Api(app)
-
-api.add_resource(Home, '/')
+initialize_routes(api)
+Admin.init_admin_default()
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
