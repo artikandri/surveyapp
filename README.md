@@ -335,3 +335,11 @@ Below is the structure of `/api`:
   In `/resources/routes.py`, the route for each api is created using `api.add_resource()`, for example: `api.add_resource(Login, '/api/authentication/login')`
 
 - `postman_json` - contains the `.json` scripts for testing APIs using postman
+
+## Screenshots
+![surveyapp](https://github.com/artikandri/surveyapp/assets/12537724/6aaaac7a-987c-4cb5-969b-76a180d54f72)
+![Screenshot from 2023-11-21 22-54-01](https://github.com/artikandri/surveyapp/assets/12537724/8768d413-ae0f-4199-aaaa-20e95825e142)
+![Screenshot from 2023-11-21 22-54-06](https://github.com/artikandri/surveyapp/assets/12537724/8cfd33ce-0469-4fb9-82a9-4cfb98f717d2)
+![Screenshot from 2023-11-21 22-55-27](https://github.com/artikandri/surveyapp/assets/12537724/1631a368-d852-40d0-bf4c-4971d6117df1)
+
+
